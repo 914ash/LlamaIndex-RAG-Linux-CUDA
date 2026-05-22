@@ -1,19 +1,21 @@
 # LlamaIndex RAG Linux CUDA
 
-This repository is an archived notebook set for local retrieval-augmented generation experiments on Linux with CUDA-backed local models. It focuses on Word-document ingestion, local model execution, and environment setup rather than on a polished application surface.
+This repository is an archived notebook set for local retrieval-augmented generation experiments on Linux with CUDA-backed local models.
+
+It focuses on Word-document ingestion, local model execution and environment setup rather than a polished application surface.
 
 - **Status:** Archived reference
 - **Stack:** Jupyter notebooks, LlamaIndex, Conda, CUDA, local GGUF models
-- **Problem:** Local RAG experimentation is often blocked by environment setup, model compatibility, and point-in-time dependency issues.
+- **Problem:** Local RAG experimentation is often blocked by environment setup, model compatibility and point-in-time dependency issues.
 
-## What Is In This Repo
+## What is in this repo
 
 - Notebook-based experiments for several local models
 - `environment.yml` with a working point-in-time environment definition
 - `Data/` folder convention for local Word-document inputs
 - Notes that reflect a Linux and CUDA workflow from the time the repo was assembled
 
-## When To Use It
+## When to use it
 
 Use this repo as a reference if you need:
 
@@ -35,6 +37,6 @@ code .
 
 Add Word documents to `Data/` and local model files to `Models/` before running the notebooks.
 
-## Maintenance Note
+## Maintenance note
 
 The notebooks and package guidance reflect a specific 2024 environment. Expect to rebuild or modernize the environment if you want to use this repo as more than a reference snapshot.
